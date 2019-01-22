@@ -10,10 +10,12 @@ import java.util.stream.Collectors;
 public class BonjourDI{
     private HashMap<Class,Class> registry;
     private HashMap<Class, Object> instances;
+    private HashMap<Class, Object> objects;
     private Class tmpClass;
     BonjourDI(){
         registry = new HashMap<Class, Class>();
         instances = new HashMap<Class, Object>();
+        objects = new HashMap<Class, Object>();
     }
 
     public BonjourDI bind(Class baseClass){
@@ -27,6 +29,10 @@ public class BonjourDI{
         registry.put(tmpClass, implementation);
     }
 
+    public void to(Object obj){
+        objects.put(tmpClass, obj);
+    }
+
     public <T> T newInstance(Class<T> c) throws IllegalAccessException, InvocationTargetException, InstantiationException {
         T object = null;
         if(instances.containsKey(c)){
@@ -38,7 +44,11 @@ public class BonjourDI{
                 final List<Object> arguments = Arrays.stream(parameters)
                         .map(param -> {
                             try {
-                                return  newInstance(param.getType());
+                                if(objects.containsKey(param.getType())){
+                                    return  objects.get(param.getType());
+                                }else{
+                                    return  newInstance(param.getType());
+                                }
                             } catch (IllegalAccessException | InvocationTargetException | InstantiationException e) {
                                 e.printStackTrace();
                                 return null;

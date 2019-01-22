@@ -1,5 +1,5 @@
 public class RssNewsService extends NewsService {
-    public RssNewsService(HttpService httpService) {
-        super(httpService);
+    public RssNewsService(HttpService httpService, String source) {
+        super(httpService, source);
     }
 }
