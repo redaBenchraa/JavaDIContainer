@@ -1,24 +1,35 @@
 public class NewsService {
     String source;
     HttpService httpService;
+    Communication communication;
+
+    @Inject(defaultImplementation = SSH.class)
+    Communication communicationField;
+
+    @Inject(defaultImplementation = SSH.class)
+    Communication communicationField2;
+
+    @Inject
+    public Logger MyLogger;
+
+    @Inject(defaultImplementations = {TorHttpService.class})
     public NewsService(HttpService httpService, String source){
         this.httpService = httpService;
         this.source = source;
     }
-    public HttpService getHttpService() {
-        return httpService;
+    public void setCommunication(Communication communication) {
+        this.communication = communication;
     }
 
-    public void setHttpService(HttpService httpService) {
-        this.httpService = httpService;
-    }
     public String getSource() {
         return source;
     }
 
-    public void setSource(String source) {
-        this.source = source;
+    public HttpService getHttpService() {
+        return httpService;
     }
 
-
+    public Communication getCommunication() {
+        return communication;
+    }
 }

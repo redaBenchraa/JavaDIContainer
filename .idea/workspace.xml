@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f14798-bb23-43ae-84f2-28357b01cd83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/reda.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SSH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TorHttpService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BonjourDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InjectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InjectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NewsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RssNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RssNewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BonjourDI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BonjourDI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InjectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InjectorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RssNewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RssNewsService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,37 +29,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BonjourDependencyInjection$InjectorTest_testSimpleInjection.ic" NAME="InjectorTest.testSimpleInjection Coverage Results" MODIFIED="1548870270287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="124" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1530573995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2322" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="6505" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2322" />
+          <entry key="JAVA" value="6505" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="18" />
+          <entry key="class" value="10" />
+          <entry key="java" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="18" />
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="80" />
         </counts>
       </usages-collector>
     </session>
@@ -56,22 +82,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="238">
+              <caret line="144" column="73" selection-start-line="144" selection-start-column="73" selection-end-line="144" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InjectorTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Entry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="207">
+              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Inject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,27 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="199" selection-start-line="199" selection-end-line="199" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NewsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding>
-                <element signature="e#67#68#0" expanded="true" />
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="200" selection-start-line="200" selection-end-line="200" />
             </state>
           </provider>
         </entry>
@@ -116,11 +132,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HttpService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/InjectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="175">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FTP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RssNewsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NewsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Communication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -134,6 +199,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>instances</find>
+      <find>tmpAutoWiring</find>
+      <find>registry</find>
+      <find>autow</find>
+      <find>return null</find>
+      <find>null</find>
+      <find>getCons</find>
+      <find>objects</find>
+      <find>singletons</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -146,12 +224,21 @@
         <option value="$PROJECT_DIR$/src/main/java/Exception/BindingException.java" />
         <option value="$PROJECT_DIR$/src/main/java/BindingException.java" />
         <option value="$PROJECT_DIR$/src/test/java/HttpService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DarkWebHttpService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entry.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Com.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FTP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutoWiring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Autowiring.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DarkWebHttpService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SSH.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FbNewsService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TorHttpService.java" />
         <option value="$PROJECT_DIR$/src/test/java/RssNewsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BonjourDI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Inject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NewsService.java" />
         <option value="$PROJECT_DIR$/src/test/java/InjectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BonjourDI.java" />
       </list>
     </option>
   </component>
@@ -167,6 +254,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="42" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="825" />
     <option name="y" value="32" />
@@ -179,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,21 +317,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BonjourDependencyInjection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548181954005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548887777570" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -242,6 +337,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
@@ -257,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InjectorTest">
+  <component name="RunManager" selected="JUnit.InjectorTest.testSimpleInjection">
     <configuration name="InjectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BonjourDependencyInjection" />
       <option name="PACKAGE_NAME" value="" />
@@ -293,9 +391,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InjectorTest" />
         <item itemvalue="JUnit.InjectorTest.testSimpleInjection" />
         <item itemvalue="JUnit.InjectorTest.testValueInjection" />
+        <item itemvalue="JUnit.InjectorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,50 +408,53 @@
       <option name="presentableId" value="Default" />
       <updated>1547574553625</updated>
       <workItem from="1547574581073" duration="2738000" />
-      <workItem from="1548175401370" duration="5738000" />
+      <workItem from="1548175401370" duration="6386000" />
+      <workItem from="1548282363770" duration="1068000" />
+      <workItem from="1548702382889" duration="20070000" />
+      <workItem from="1548867924260" duration="10105000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.22 at 19h 13m 46s.xml">
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 11m 14s.xml">
       <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testValueInjection - 2019.01.22 at 19h 24m 27s.xml">
-      <configuration name="InjectorTest.testValueInjection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectorTest_testValueInjection - 2019.01.22 at 19h 27m 20s.xml">
-      <configuration name="InjectorTest.testValueInjection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectorTest_testValueInjection - 2019.01.22 at 19h 27m 47s.xml">
-      <configuration name="InjectorTest.testValueInjection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectorTest_testValueInjection - 2019.01.22 at 19h 27m 52s.xml">
-      <configuration name="InjectorTest.testValueInjection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectorTest - 2019.01.22 at 19h 29m 15s.xml">
-      <configuration name="InjectorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.22 at 19h 30m 39s.xml">
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 16m 29s.xml">
       <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.22 at 19h 31m 22s.xml">
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 17m 12s.xml">
       <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.22 at 19h 31m 36s.xml">
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 19m 09s.xml">
       <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.22 at 19h 32m 04s.xml">
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 19m 24s.xml">
+      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 20m 09s.xml">
+      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 22m 16s.xml">
+      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 22m 59s.xml">
+      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 24m 25s.xml">
+      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 25m 21s.xml">
       <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8476000" />
+    <option name="totallyTimeSpent" value="40367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="32" width="1549" height="868" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25282767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2641384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,25 +463,27 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5244565" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49933246" visible="true" weight="0.3790761" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986649" weight="0.45923913" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33016303" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32880434" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32744566" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013351" side_tool="true" weight="0.39811066" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32793522" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32880434" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50513345" side_tool="true" weight="0.249501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49486652" weight="0.249501" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32934132" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,47 +497,60 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/InjectorTest.java</url>
-          <line>23</line>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/InjectorTest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BonjourDI.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="newsService.getHttpService()" language="JAVA" />
-        <watch expression="param" language="JAVA" />
-        <watch expression="injector" language="JAVA" />
-        <watch expression="objects.get(param);" language="JAVA" />
-        <watch expression="bjects.containsKey(param)" language="JAVA" />
-        <watch expression="newsService.getHttpService() " language="JAVA" />
+        <watch expression="newsService.communicationField" language="JAVA" />
+        <watch expression="newsService.communicationField2" language="JAVA" />
+        <watch expression="instances" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>newsService.getHttpService()</expression-string>
+        <expression-string>instances</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>param</expression-string>
+        <expression-string>newsService.communicationField2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>bjects.containsKey(param)</expression-string>
+        <expression-string>newsService.communicationField</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>objects.get(param);</expression-string>
+        <expression-string>newInstance(field.getType(), imp)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>injector</expression-string>
+        <expression-string>field.getType()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -444,7 +560,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>constructors</expression-string>
+        <expression-string>constructor</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -454,7 +570,19 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>registry.get(c).getConstructors()</expression-string>
+        <expression-string>newsService.getHttpService()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>classes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>object</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -469,86 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BindingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="486" column="63" selection-start-line="486" selection-start-column="7" selection-end-line="486" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DarkWebHttpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HttpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#67#68#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="595" selection-start-line="595" selection-end-line="595" />
-          <folding>
-            <element signature="e#23684#23685#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,42 +618,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="171">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/AnnotatedElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="256" column="20" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1293">
+          <caret line="190" column="57" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
+          <folding>
+            <element signature="e#23630#23631#0" expanded="true" />
+            <element signature="e#23684#23685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1650" column="62" selection-start-line="1650" selection-start-column="32" selection-end-line="1650" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Autowiring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BindingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FbNewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TorHttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SSH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Inject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RssNewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="69">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Communication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        <state>
+          <caret selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DarkWebHttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="144" column="73" selection-start-line="144" selection-start-column="73" selection-end-line="144" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InjectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="175">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
