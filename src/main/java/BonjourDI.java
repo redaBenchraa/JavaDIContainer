@@ -1,7 +1,6 @@
 
 import java.lang.reflect.*;
 import java.util.*;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class BonjourDI{
@@ -101,11 +100,12 @@ public class BonjourDI{
                     resultedObject = constructor.newInstance();
                 }
                 // Inject in setter
-                List<Method> setterMethods = GetSetterMethods(c);
+                List<Method> setterMethods = GetSetterMethods(c, getImplementation(c, defaultImplementation));
                 T tempObject = resultedObject;
                 setterMethods.forEach(method -> {
                     try {
-                        method.invoke(tempObject, getMethodArgument(method).toArray());
+                        Class imp = method.isAnnotationPresent(Inject.class) ? method.getAnnotation(Inject.class).defaultImplementation() : null;
+                        method.invoke(tempObject, getMethodArgument(method, imp).toArray());
                     } catch (IllegalAccessException | InvocationTargetException e) {
                         e.printStackTrace();
                     }
@@ -159,11 +159,11 @@ public class BonjourDI{
         }
     }
 
-    public List<?> getMethodArgument(Method method){
+    public List<?> getMethodArgument(Method method, Class imp){
         return Arrays.stream(method.getParameterTypes()).map(
                 type -> {
                     try {
-                        return newInstance(type);
+                        return newInstance(type, imp);
                     } catch (IllegalAccessException | InvocationTargetException | InstantiationException e) {
                         e.printStackTrace();
                         return null;
@@ -199,10 +199,15 @@ public class BonjourDI{
         return Arrays.stream(method.getParameterTypes()).filter(x -> registry.containsKey(x)).count() > 0;
     }
 
-    public List<Method> GetSetterMethods(Class c){
-        return Arrays.stream(c.getDeclaredMethods())
+    public List<Method> GetSetterMethods(Class c, Class imp){
+        List<Method> cmethods = Arrays.stream(c.getDeclaredMethods())
                 .filter(x -> isSetter(x) && CanInjectParamInMethod(x))
                 .collect(Collectors.toList());
+        if(imp ==  null) return  cmethods;
+        cmethods.addAll(Arrays.stream(imp.getDeclaredMethods())
+                .filter(x -> isSetter(x) && CanInjectParamInMethod(x))
+                .collect(Collectors.toList()));
+        return cmethods;
     }
 
     public List<Field> getFields(Class c){

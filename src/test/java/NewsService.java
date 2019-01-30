@@ -17,6 +17,7 @@ public class NewsService {
         this.httpService = httpService;
         this.source = source;
     }
+
     public void setCommunication(Communication communication) {
         this.communication = communication;
     }

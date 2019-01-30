@@ -22,6 +22,7 @@ public class InjectorTest {
         injector.bind(NewsService.class).to(RssNewsService.class);
         injector.bind(Communication.class).to(FTP.class).asSingleton();
         injector.bind(Communication.class).to(SSH.class).asSingleton();
+        injector.bind(Communication.class).to(RSS.class).asSingleton();
         injector.bind(MyLogger.class).forAutowiring();
         try {
             NewsService newsService = injector.newInstance(NewsService.class);
@@ -29,6 +30,7 @@ public class InjectorTest {
             assertTrue(newsService.getHttpService() instanceof TorHttpService);
             assertTrue(newsService.getCommunication() instanceof FTP);
             assertTrue(newsService.communicationField instanceof SSH);
+            assertTrue(((RssNewsService)newsService).rss instanceof RSS);
             assertTrue(newsService.MyLogger instanceof MyLogger);
             assertEquals(newsService.communicationField, newsService.communicationField2);
         } catch (IllegalAccessException | InvocationTargetException | InstantiationException e) {
