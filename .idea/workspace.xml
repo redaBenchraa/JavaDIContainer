@@ -2,15 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f14798-bb23-43ae-84f2-28357b01cd83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClasses/HTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClasses/TimeLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BonjourDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid18306.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid18306.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid19322.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid19322.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid20117.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid20117.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid21973.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid21973.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid22364.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid22364.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid22371.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid22371.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Autowiring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI/Autowiring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BindingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI/BindingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BonjourDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI/BonjourDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BonjourDI/Inject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DarkWebHttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/DarkWebHttpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/FTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/HttpService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InjectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InjectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RssNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RssNewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BonjourDI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BonjourDI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/MyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/RSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RssNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/RssNewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SSH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/SSH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TorHttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/TorHttpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Autowiring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BindingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BonjourDI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Communication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DarkWebHttpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FTP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HttpService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/InjectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InjectorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RssNewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RssNewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RSS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RssNewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SSH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TorHttpService.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,78 +68,80 @@
         <counts>
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6797" />
+          <entry key="java" value="7772" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6797" />
+          <entry key="JAVA" value="7772" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
-          <entry key="java" value="88" />
+          <entry key="class" value="13" />
+          <entry key="java" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="88" />
+          <entry key="CLASS" value="13" />
+          <entry key="JAVA" value="130" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI/BonjourDI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="206" column="27" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1531#1532#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/HTTP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/InjectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="46">
+              <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NewsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,9 +165,19 @@
       <find>return null</find>
       <find>null</find>
       <find>getCons</find>
-      <find>objects</find>
       <find>singletons</find>
+      <find>objects</find>
+      <find>service2</find>
+      <find>forAutowiring</find>
+      <find>communicationField</find>
+      <find>set</find>
+      <find>logger</find>
+      <find>getImplementation(c, defaultImplementation)</find>
     </findStrings>
+    <replaceStrings>
+      <replace>c</replace>
+      <replace>implementation</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/DITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exception/BindingException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BindingException.java" />
         <option value="$PROJECT_DIR$/src/test/java/HttpService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entry.java" />
         <option value="$PROJECT_DIR$/src/test/java/Com.java" />
@@ -159,9 +204,25 @@
         <option value="$PROJECT_DIR$/src/test/java/AlertLogger.java" />
         <option value="$PROJECT_DIR$/src/test/java/RSS.java" />
         <option value="$PROJECT_DIR$/src/test/java/RssNewsService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/InjectorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NewsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/BonjourDI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/Communication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/DarkWebHttpService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/FTP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/Logger.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/HttpService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/MyLogger.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/RSS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/SSH.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/TorHttpService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BindingException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BonjourDI/BindingException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/NewsService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/RssNewsService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/TimeLogger.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClasses/HTTP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BonjourDI/BonjourDI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/InjectorTest.java" />
       </list>
     </option>
   </component>
@@ -200,8 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,6 +290,14 @@
               <item name="BonjourDependencyInjection" type="b2602c69:ProjectViewProjectNode" />
               <item name="BonjourDependencyInjection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BonjourDI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BonjourDependencyInjection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BonjourDependencyInjection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,12 +311,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548891044922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549390677762" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -263,6 +332,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestClasses" />
       <recent name="" />
     </key>
   </component>
@@ -278,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InjectorTest.testSimpleInjection">
+  <component name="RunManager" selected="JUnit.InjectorTest">
     <configuration name="InjectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BonjourDependencyInjection" />
       <option name="PACKAGE_NAME" value="" />
@@ -287,36 +357,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InjectorTest.testSimpleInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InjectorTest.testConstructorInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BonjourDependencyInjection" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InjectorTest" />
-      <option name="METHOD_NAME" value="testSimpleInjection" />
+      <option name="METHOD_NAME" value="testConstructorInjection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InjectorTest.testValueInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InjectorTest.testFieldInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BonjourDependencyInjection" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InjectorTest" />
-      <option name="METHOD_NAME" value="testValueInjection" />
+      <option name="METHOD_NAME" value="testFieldInjection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.testMultipleImplementationsInjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BonjourDependencyInjection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InjectorTest" />
+      <option name="METHOD_NAME" value="testMultipleImplementationsInjection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectorTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BonjourDependencyInjection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InjectorTest" />
+      <option name="METHOD_NAME" value="testSingleton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InjectorTest.testSimpleInjection" />
-      <item itemvalue="JUnit.InjectorTest.testValueInjection" />
+      <item itemvalue="JUnit.InjectorTest.testConstructorInjection" />
+      <item itemvalue="JUnit.InjectorTest.testFieldInjection" />
+      <item itemvalue="JUnit.InjectorTest.testSingleton" />
+      <item itemvalue="JUnit.InjectorTest.testMultipleImplementationsInjection" />
       <item itemvalue="JUnit.InjectorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InjectorTest.testSimpleInjection" />
-        <item itemvalue="JUnit.InjectorTest.testValueInjection" />
         <item itemvalue="JUnit.InjectorTest" />
+        <item itemvalue="JUnit.InjectorTest.testMultipleImplementationsInjection" />
+        <item itemvalue="JUnit.InjectorTest.testSingleton" />
+        <item itemvalue="JUnit.InjectorTest.testFieldInjection" />
+        <item itemvalue="JUnit.InjectorTest.testConstructorInjection" />
       </list>
     </recent_temporary>
   </component>
@@ -335,49 +429,51 @@
       <workItem from="1548282363770" duration="1068000" />
       <workItem from="1548702382889" duration="20070000" />
       <workItem from="1548867924260" duration="12881000" />
+      <workItem from="1549300389679" duration="4668000" />
+      <workItem from="1549359320607" duration="7843000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 24m 25s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest_testSingleton - 2019.02.05 at 17h 40m 47s.xml">
+      <configuration name="InjectorTest.testSingleton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 21h 25m 21s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest_testSingleton - 2019.02.05 at 17h 40m 58s.xml">
+      <configuration name="InjectorTest.testSingleton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.30 at 23h 57m 42s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest_testSingleton - 2019.02.05 at 17h 41m 29s.xml">
+      <configuration name="InjectorTest.testSingleton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 17m 28s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest_testMultipleImplementationsInjection - 2019.02.05 at 17h 41m 35s.xml">
+      <configuration name="InjectorTest.testMultipleImplementationsInjection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 17m 39s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest - 2019.02.05 at 17h 41m 41s.xml">
+      <configuration name="InjectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 19m 25s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest_testValueAndObjectInjection - 2019.02.05 at 17h 55m 17s.xml">
+      <configuration name="InjectorTest.testValueAndObjectInjection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 20m 51s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest - 2019.02.05 at 17h 58m 40s.xml">
+      <configuration name="InjectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 23m 09s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest - 2019.02.05 at 18h 00m 03s.xml">
+      <configuration name="InjectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 24m 51s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest - 2019.02.05 at 18h 47m 44s.xml">
+      <configuration name="InjectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectorTest_testSimpleInjection - 2019.01.31 at 00h 26m 30s.xml">
-      <configuration name="InjectorTest.testSimpleInjection" configurationId="JUnit" />
+    <history-entry file="InjectorTest - 2019.02.05 at 19h 14m 02s.xml">
+      <configuration name="InjectorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43143000" />
+    <option name="totallyTimeSpent" value="55654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="32" width="1549" height="868" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2641384" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18895543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,9 +481,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49933246" visible="true" weight="0.36548913" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986649" weight="0.45923913" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986649" weight="0.3980978" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,7 +493,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013351" side_tool="true" weight="0.39811066" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32744566" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32880434" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50513345" side_tool="true" weight="0.249501" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49486652" weight="0.249501" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,6 +503,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32934132" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50513345" side_tool="true" weight="0.249501" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,38 +513,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/InjectorTest.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/InjectorTest.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/InjectorTest.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="newsService.getHttpService()" language="JAVA" />
-        <watch expression="c" language="JAVA" />
-        <watch expression="getConstructor(getImplementation(c, defaultImplementation)).getAnnotation(Inject.class).defaultImplementations()" language="JAVA" />
-        <watch expression="imps.get(0) " language="JAVA" />
-        <watch expression="classes" language="JAVA" />
-        <watch expression="constructor" language="JAVA" />
-        <watch expression="newsService.getHttpService()" language="JAVA" />
-        <watch expression="newsService.getCommunication() " language="JAVA" />
+        <watch expression="newsService.service2" language="JAVA" />
+        <watch expression="newsService" language="JAVA" />
+        <watch expression="resultedObject" language="JAVA" />
+        <watch expression="newsService instanceof RssNewsService" language="JAVA" />
+        <watch expression="newsService.getHttpService() instanceof TorHttpService" language="JAVA" />
+        <watch expression="newsService.getCommunication() instanceof FTP" language="JAVA" />
+        <watch expression="newsService.getCommunicationField() instanceof SSH" language="JAVA" />
+        <watch expression="newsService.communicationField" language="JAVA" />
+        <watch expression="((RssNewsService)newsService).rss instanceof RSS)" language="JAVA" />
+        <watch expression="((RssNewsService)newsService).rss instanceof RSS" language="JAVA" />
+        <watch expression="newsService.MyLogger instanceof MyLogger" language="JAVA" />
+        <watch expression="newsService.getCommunicationField(), newsService.getCommunicationField2()" language="JAVA" />
+        <watch expression="newsService.getCommunicationField() == newsService.getCommunicationField2()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -458,22 +538,27 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>newsService.getCommunication()</expression-string>
+        <expression-string>newsService.getCommunicationField() == newsService.getCommunicationField2()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>imp</expression-string>
+        <expression-string>newsService.getCommunicationField(), newsService.getCommunicationField2()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>instances</expression-string>
+        <expression-string>newsService.MyLogger instanceof MyLogger</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>newsService.communicationField2</expression-string>
+        <expression-string>((RssNewsService)newsService).rss instanceof RSS</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((RssNewsService)newsService).rss instanceof RSS)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -483,27 +568,22 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>newInstance(field.getType(), imp)</expression-string>
+        <expression-string>newsService.getCommunicationField() instanceof SSH</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>field.getType()</expression-string>
+        <expression-string>newsService.getCommunication() instanceof FTP</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parameters</expression-string>
+        <expression-string>newsService.getHttpService() instanceof TorHttpService</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>constructor</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>registry.get(c)</expression-string>
+        <expression-string>newsService instanceof RssNewsService</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -599,49 +679,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Autowiring.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FbNewsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlertLogger.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/FTP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BindingException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI/Autowiring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="138">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FbNewsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI/BindingException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI/Inject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TorHttpService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/RSS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SSH.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entry.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/MyLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -652,108 +740,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Communication.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/SSH.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="21" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FTP.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/RssNewsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="115">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HttpService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/Communication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Inject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/DarkWebHttpService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1273#1274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/TorHttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/TimeLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI/BonjourDI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlertLogger.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClasses/HTTP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RssNewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="61">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RSS.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DarkWebHttpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InjectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="46">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BonjourDI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="206" column="27" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
           </folding>
         </state>
       </provider>

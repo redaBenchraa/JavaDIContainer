@@ -116,10 +116,10 @@ Deoptimization events (1 events):
 Event: 0,562 Thread 0x00007f17b4010000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f17a51a1c84 method=java.lang.String.replace(CC)Ljava/lang/String; @ 26
 
 Classes redefined (5 events):
-Event: 109,605 Thread 0x00007f17b4145000 redefined class name=Entry, count=1
-Event: 477,910 Thread 0x00007f17b4145000 redefined class name=BonjourDI, count=1
+Event: 109,605 Thread 0x00007f17b4145000 redefined class name=BonjourDI.Entry, count=1
+Event: 477,910 Thread 0x00007f17b4145000 redefined class name=BonjourDI.BonjourDI, count=1
 Event: 477,913 Thread 0x00007f17b4145000 redefined class name=InjectorTest, count=1
-Event: 1958,425 Thread 0x00007f17b4145000 redefined class name=HttpService, count=1
+Event: 1958,425 Thread 0x00007f17b4145000 redefined class name=TestClasses.HttpService, count=1
 Event: 1958,433 Thread 0x00007f17b4145000 redefined class name=InjectorTest, count=2
 
 Internal exceptions (10 events):

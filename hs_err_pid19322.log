@@ -117,13 +117,13 @@ Event: 0,808 Thread 0x00007f1590010000 Uncommon trap: reason=unstable_if action=
 
 Classes redefined (8 events):
 Event: 592,258 Thread 0x00007f1590145000 redefined class name=InjectorTest, count=1
-Event: 1312,136 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=1
-Event: 1553,925 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=2
-Event: 1669,874 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=3
-Event: 1684,142 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=4
-Event: 1859,116 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=5
-Event: 1987,546 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=6
-Event: 2041,420 Thread 0x00007f1590145000 redefined class name=BonjourDI, count=7
+Event: 1312,136 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=1
+Event: 1553,925 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=2
+Event: 1669,874 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=3
+Event: 1684,142 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=4
+Event: 1859,116 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=5
+Event: 1987,546 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=6
+Event: 2041,420 Thread 0x00007f1590145000 redefined class name=BonjourDI.BonjourDI, count=7
 
 Internal exceptions (10 events):
 Event: 0,521 Thread 0x00007f1590010000 Exception <a 'java/security/PrivilegedActionException'> (0x0000000782403648) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u201/12317/hotspot/src/share/vm/prims/jvm.cpp, line 1502]

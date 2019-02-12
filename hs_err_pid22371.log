@@ -183,11 +183,11 @@ Event: 0,519 Thread 0x00007f8e50010000 Uncommon trap: reason=unstable_if action=
 Event: 22,209 Thread 0x00007f8e50010000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f8e4129d6e0 method=jdk.internal.org.objectweb.asm.Type.getArgumentsAndReturnSizes(Ljava/lang/String;)I @ 47
 
 Classes redefined (5 events):
-Event: 84,661 Thread 0x00007f8e50145000 redefined class name=BonjourDI, count=1
-Event: 98,935 Thread 0x00007f8e50145000 redefined class name=BonjourDI, count=2
-Event: 273,926 Thread 0x00007f8e50145000 redefined class name=BonjourDI, count=3
-Event: 402,461 Thread 0x00007f8e50145000 redefined class name=BonjourDI, count=4
-Event: 456,195 Thread 0x00007f8e50145000 redefined class name=BonjourDI, count=5
+Event: 84,661 Thread 0x00007f8e50145000 redefined class name=BonjourDI.BonjourDI, count=1
+Event: 98,935 Thread 0x00007f8e50145000 redefined class name=BonjourDI.BonjourDI, count=2
+Event: 273,926 Thread 0x00007f8e50145000 redefined class name=BonjourDI.BonjourDI, count=3
+Event: 402,461 Thread 0x00007f8e50145000 redefined class name=BonjourDI.BonjourDI, count=4
+Event: 456,195 Thread 0x00007f8e50145000 redefined class name=BonjourDI.BonjourDI, count=5
 
 Internal exceptions (10 events):
 Event: 0,375 Thread 0x00007f8e50010000 Exception <a 'java/security/PrivilegedActionException'> (0x00000007824036d8) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u201/12317/hotspot/src/share/vm/prims/jvm.cpp, line 1502]
